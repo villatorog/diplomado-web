@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* fonts */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+
+/* Normailize  */
+@import url("lib/normalize.css");
+
+/* Generals */
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+/* Header */
+.container{
+	max-width:1200px;
+	margin:0 auto;
+}
+.page-header{
+	/* background propiedad general y contiene propiedades especificas 
+		background-color(hex,rgba, entre otros)default:transparent
+		background-image(url de la imagen)
+		background-repeat(repeat, no-repeat), default:repeat)
+		background-position(en x y y) default:left top
+	    posibles valores para x , y: x->left,center right o valor en pixeles
+									y ->top,center, bottom valor en pixeles 
+	background-attachement(scroll,fixed),default :scroll
+	
+	*/
+	background: #F00 url(../images/lugar.jpg) no-repeat center center;
+	min-height:300px;
+}
+.page-header h1{
+	/*Quita margen de arriba*/
+	margin:0px;
+	font-weight:300;
+	text-transform:uppercase;
+	color:#FFF;
+}
+/* Nav */
+
+/* Main */
+
+/* Footer */
+
+/* Helpers */
